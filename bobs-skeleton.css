@@ -1,0 +1,42 @@
+/* name:	Bob's Skeleton CSS
+   version:	1.0
+   created:	16/11/13
+*/
+
+* { margin:0; padding:0; }
+body { margin:0.5%; }
+
+/* All cloumns */
+.col, .stack { margin:1%; float:left; display:block; }
+	.stack-col { display:block; width:100%; }
+	.stack-col:first-child { margin-top:0; }
+	.stack-col:last-child { margin-bottom:0; }
+
+/* 6 columns */
+.col6 { width:14.66666666667%; }
+
+/* 5 columns */
+.col5 { width:18%; }
+	
+	/* 5 columns - span 2 */
+	.col5-span-2 { width:38%; }
+	/* 5 columns - span 3 */
+	.col5-span-3 { width:58%; }
+	/* 5 columns - span 4 */
+	.col5-span-4 { width:78%; }
+	
+/* 4 columns */
+.col4 { width:23%; }
+
+/* 3 columns */
+.col3 { width:31.33333333333%; }
+
+	/* 3 columns - span 2 */
+	.col3-span-2 { width:64.66666666667%; }
+
+/* 2 columns */
+.col2 { width:48%; }
+
+/* 1 column */
+.col1 { width:98%; }
+
